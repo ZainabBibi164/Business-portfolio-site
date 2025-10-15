@@ -1,14 +1,9 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';  // Import Helmet (install react-helmet-async first)
 
 const Contact = () => {
   return (
     <>
-      <Helmet>
-        <title>Contact BusinessCo | Get Your Free Consultation</title>
-        <meta name="description" content="Reach out to BusinessCo for expert web development, marketing, and consulting. Response in 24 hours." />
-        <meta name="keywords" content="business consulting, web development, digital marketing" />
-      </Helmet>
+      
       <div className="relative min-h-screen bg-neutral-50 pt-20 overflow-hidden">
         {/* Background Image */}
         <img

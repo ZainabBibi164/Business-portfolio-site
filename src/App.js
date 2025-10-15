@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';  // Add this import
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -11,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <HelmetProvider>  {/* Wrap here */}
+   
       <Router>
         <div className="App">
           <Navbar />
@@ -24,7 +23,7 @@ function App() {
           </Routes>
         </div>
       </Router>
-    </HelmetProvider>
+  
   );
 }
 
